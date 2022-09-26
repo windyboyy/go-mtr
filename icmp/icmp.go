@@ -1,16 +1,15 @@
-package icmp
+package kmtr
 
 import (
 	"encoding/binary"
 	"fmt"
+	common "github.com/windyboyy/go-mtr/common"
 	"net"
 	"time"
 
 	"golang.org/x/net/icmp"
 	"golang.org/x/net/ipv4"
 	"golang.org/x/net/ipv6"
-
-	"github.com/windyboyy/go-mtr/common"
 )
 
 const (

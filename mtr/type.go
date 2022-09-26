@@ -11,12 +11,11 @@ Description
 
 */
 
-package mtr
+package kmtr
 
 import (
+	common "github.com/windyboyy/go-mtr/common"
 	"time"
-
-	"github.com/windyboyy/go-mtr/common"
 )
 
 const DEFAULT_MAX_HOPS = 30

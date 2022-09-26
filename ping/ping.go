@@ -1,12 +1,11 @@
-package ping
+package kmtr
 
 import (
 	"bytes"
 	"fmt"
+	common "github.com/windyboyy/go-mtr/common"
+	icmp "github.com/windyboyy/go-mtr/icmp"
 	"time"
-
-	"github.com/windyboyy/go-mtr/common"
-	"github.com/windyboyy/go-mtr/icmp"
 )
 
 // 输入参数包括 目的地址 数据包数量 超时时间 发包间隔
