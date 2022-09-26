@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ylwang1122/go-mtr/common"
-	"github.com/ylwang1122/go-mtr/icmp"
+	"github.com/windyboyy/go-mtr/common"
+	"github.com/windyboyy/go-mtr/icmp"
 )
 
 // 执行traceroute操作 新增ipv6操作

@@ -16,7 +16,7 @@ package mtr
 import (
 	"time"
 
-	"github.com/ylwang1122/go-mtr/common"
+	"github.com/windyboyy/go-mtr/common"
 )
 
 const DEFAULT_MAX_HOPS = 30

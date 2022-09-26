@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ylwang1122/go-mtr/common"
-	"github.com/ylwang1122/go-mtr/icmp"
+	"github.com/windyboyy/go-mtr/common"
+	"github.com/windyboyy/go-mtr/icmp"
 )
 
 // 输入参数包括 目的地址 数据包数量 超时时间 发包间隔
