@@ -1,11 +1,10 @@
-package main
+package kmtr
 
 import (
 	"fmt"
+	mtr "github.com/windyboyy/go-mtr/mtr"
+	ping "github.com/windyboyy/go-mtr/ping"
 	"time"
-
-	"github.com/windyboyy/go-mtr/mtr"
-	"github.com/windyboyy/go-mtr/ping"
 )
 
 var targets = []string{"216.58.200.78", "52.74.223.119", "123.125.114.144"}
